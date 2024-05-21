@@ -1,0 +1,207 @@
+/* FONTS */
+/* Manrope(NAV) */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* BASE CSS */
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope";
+}
+
+*{
+margin:0px;
+padding:0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+input, button {
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* ABOVE-FOLD-SECTION  */
+.above-fold{
+    height: 830px;
+    background-color: #f5f6f8;
+}
+
+.above-fold .navigation-header{
+    height: 85%;
+    background: linear-gradient(to right, #C9E7F2,#62BADA);
+    overflow: hidden;
+}
+
+.above-fold .navigation-header .container{
+    padding: 2% 8%;
+}
+
+.above-fold .navigation-header .container .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.above-fold .navigation-header .container .navigation span.logo{
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.above-fold .navigation-header .container .navigation .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.navigation ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.navigation ul li ul.sub-nav li{
+    display: block;
+    padding: 0px 8px;
+}
+
+.navigation ul li ul.sub-nav{
+    width: 100px;
+    background-color: white;
+    position:  absolute;
+    border-radius: 2px;
+    z-index: 999;
+    display: none;
+}
+
+.navigation ul li ul.sub-nav li:hover{
+    background-color: #f5f6f8;
+}
+
+.navigation ul li:hover ul.sub-nav {
+    display: block;
+}
+
+.navigation .sign-in{
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navigation .sign-in span:first-child{
+    padding-right: 35px;
+}
+
+.navigation .sign-in span:last-child{
+    background-color: #4F46BA;
+    color: white;
+    padding: 10px 28px;
+}
+
+.above-fold .navigation-header .container .header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.above-fold .navigation-header .container .header .header-content{
+    margin-top: 85px;
+}
+.above-fold .navigation-header .container .header .header-content span.main-title{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.above-fold .navigation-header .container .header .header-content p{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 30px;
+}
+
+.above-fold .navigation-header .container .header .header-image img{
+    height: 70%;
+}
+
+.above-fold .navigation-header .container .header .header-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.above-fold .navigation-header .container .header .header-buttons button{
+    margin-top: 10px;
+    background: #3734A9;
+    color: white;
+    padding: 20px 32px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.above-fold .navigation-header .container .header .header-buttons .see-how-it-works{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:#3734A9 ;
+    font-size: 20px;
+}
+
+.above-fold .navigation-header .container .header .header-buttons .see-how-it-works i{
+    color:#22D497 ;
+    font-size: 50px;
+}
+
+.above-fold .navigation-header .container .header .check-section{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+    color: #757095;
+    font-size: 20px;
+;
+}
+
+.above-fold .navigation-header .container .header .check-section i{
+    margin-right: 10px;
+    color: #3734A9;
+}
+
+.above-fold .companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 80px;
+    font-family: "Manrope";
+    font-weight: 600;
+}
+
+.above-fold .companies .companies-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.above-fold .companies .companies-logos img{
+    height: 20px;
+}
