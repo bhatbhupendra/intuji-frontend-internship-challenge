@@ -52,7 +52,7 @@ a {
 }
 
 
-/* ABOVE-FOLD-SECTION  */
+/* 1ST ABOVE-FOLD-SECTION  */
 .above-fold{
     height: 830px;
     background-color: #f5f6f8;
@@ -213,7 +213,7 @@ a {
     height: 20px;
 }
 
-/* SERVICES AND TESTIMONIAL SECTION */
+/* 2ND SERVICES AND TESTIMONIAL SECTION */
 
 .service-testimonial .container {
     display: flex;
@@ -251,4 +251,52 @@ a {
     right: 490px;
     top: 30px;
     height: 50px;
+}
+
+
+/* 3RD SECTION HOW IT WORKS */
+.how-it-works-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.how-it-works-section .one, .how-it-works-section .two, .how-it-works-section .three{
+    border: 1px solid #DBE4E9;
+    border-radius: 15px;
+    padding: 50px 50px 20px 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.how-it-works-section .one span:nth-child(1), 
+.how-it-works-section .two span:nth-child(1), 
+.how-it-works-section .three span:nth-child(1) {
+    position: absolute;
+    font-weight: 800;
+    font-size: 22px;
+    left: 15px;
+    top: 15px;
+}
+.how-it-works-section img {
+    height: 50px;
+    width: 50px;
+}
+.how-it-works-section .title {
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+}
+
+.how-it-works-section .decription{
+    font-weight: 400;
+    text-align: center;
+}
+
+.hext{
+    font-size: 30px;
+    font-weight: 800;
 }
