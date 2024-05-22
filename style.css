@@ -36,6 +36,21 @@ a {
   color: inherit;
 }
 
+/* RE-USABLE CSS */
+.section-heading-font-large{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.section-heading-font-small {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.section-left-right-padding {
+    padding: 2% 8%;
+}
+
 
 /* ABOVE-FOLD-SECTION  */
 .above-fold{
@@ -47,10 +62,6 @@ a {
     height: 85%;
     background: linear-gradient(to right, #C9E7F2,#62BADA);
     overflow: hidden;
-}
-
-.above-fold .navigation-header .container{
-    padding: 2% 8%;
 }
 
 .above-fold .navigation-header .container .navigation{
@@ -126,10 +137,6 @@ a {
 .above-fold .navigation-header .container .header .header-content{
     margin-top: 85px;
 }
-.above-fold .navigation-header .container .header .header-content span.main-title{
-    font-size: 60px;
-    font-weight: 800;
-}
 
 .above-fold .navigation-header .container .header .header-content p{
     font-size: 20px;
@@ -204,4 +211,44 @@ a {
 
 .above-fold .companies .companies-logos img{
     height: 20px;
+}
+
+/* SERVICES AND TESTIMONIAL SECTION */
+
+.service-testimonial .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.service-testimonial .header{
+    width: 50%;
+    
+}
+
+.service-testimonial .header p{
+    margin-top: 5px;
+    font-weight: 600;
+
+}
+
+.service-testimonial .testimonial {
+    width: 35%;
+    background: #eaebed;
+    font-weight: 600;
+    padding: 30px 25px;
+    border-radius: 20px;
+}
+
+.service-testimonial .testimonial p{
+    margin-top: 10px;
+}
+
+.service-testimonial img {
+    position: absolute;
+    right: 490px;
+    top: 30px;
+    height: 50px;
 }
