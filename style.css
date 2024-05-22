@@ -566,3 +566,41 @@ a {
     background-color: white;
     padding: 45px 30px;
 }
+
+/* Status section */
+
+.status-section{
+    background-color: #3734A9;
+}
+
+.status-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-section .left-text{
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    /* border-right: #3D3D3D 2px solid; */
+}
+
+.status-section h1{
+    font-size: 72px;
+    font-weight: 800;
+    color: white;
+}
+
+.status-section span {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.status-section span i{
+    color: #B1CA16;
+    padding-right: 15px;
+    font-size: 25px;
+}
