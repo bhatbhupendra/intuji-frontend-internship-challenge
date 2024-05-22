@@ -397,3 +397,44 @@ a {
 .why-choose-us .header{
     width: 45%;
 }
+
+.why-choose-us .header > span {
+    color: #3734A9;
+    font-weight: 700;
+    font-size: 14px;    
+}
+
+.why-choose-us .header>h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.why-choose-us .header>p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #505887;
+    margin-top: 15px;
+}
+
+.why-choose-us .header>hr{
+    border: 0;
+    height: 3px;
+    background-color: #C4C4C4;
+    margin: 20px 0;
+}
+
+.why-choose-us .services-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #505887;
+}
+.why-choose-us .services-list i{
+    color: #FDBC64;
+    padding-right: 10px;
+    font-size: 19px;
+}
+
+
+
+
