@@ -489,11 +489,49 @@ a {
     margin-top: 10px;
 }
 
-.why-choose-us-section img {
+.why-choose-us-section .header-parent img {
     position: absolute;
     top: -25px;
     height: 50px;
 }
+
+.why-choose-us-section .image-section{
+    position: relative;
+}
+
+.why-choose-us-section .image-section img {
+    position: absolute;
+}
+
+.why-choose-us-section .image-section .rectangle-bg{
+    height: 416px;
+    z-index: 10;
+}
+
+.why-choose-us-section .image-section .hand{
+    height: 520px;
+    top: -105px;
+    z-index: 11;
+}
+
+.why-choose-us-section .image-section .total-balance{
+    height: 320px;
+    left: -130px;
+    bottom: -120px;
+    z-index: 12;
+}
+
+.why-choose-us-section .image-section .marker-lines{
+    height: 80px;
+    top: 50px;
+    left: 20px;
+
+    z-index: 13;
+}
+
+
+
+
 
 /* FEATURE SECTION */
 .features-section{
