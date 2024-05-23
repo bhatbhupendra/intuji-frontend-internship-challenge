@@ -67,21 +67,22 @@ a {
     height: 85%;
     background: linear-gradient(to right, #C9E7F2,#62BADA);
     overflow: hidden;
+    position: relative;
 }
 
-.above-fold .navigation-header .container .navigation{
+.above-fold .navigation-header .navigation{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.above-fold .navigation-header .container .navigation span.logo{
+.above-fold .navigation-header .navigation span.logo{
     font-family: "Manrope";
     font-size: 20px;
     font-weight: 800;
 }
 
-.above-fold .navigation-header .container .navigation .nav{
+.above-fold .navigation-header .navigation .nav{
     display: flex;
     flex-direction: row;
     gap: 23px;
@@ -134,26 +135,26 @@ a {
     padding: 10px 28px;
 }
 
-.above-fold .navigation-header .container .header{
+.above-fold .navigation-header .header{
     display: flex;
     justify-content: space-evenly;
 }
 
-.above-fold .navigation-header .container .header .header-content{
+.above-fold .navigation-header .header-content{
     margin-top: 85px;
 }
 
-.above-fold .navigation-header .container .header .header-content p{
+.above-fold .navigation-header .header-content p{
     font-size: 20px;
     font-weight: 400px;
     margin-top: 30px;
 }
 
-.above-fold .navigation-header .container .header .header-image img{
+.above-fold .navigation-header .header-image img{
     height: 80%;
 }
 
-.above-fold .navigation-header .container .header .header-buttons{
+.above-fold .navigation-header .header-buttons{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,7 +162,7 @@ a {
     margin-top: 30px;
 }
 
-.above-fold .navigation-header .container .header .header-buttons button{
+.above-fold .navigation-header .header-buttons button{
     margin-top: 10px;
     background: #3734A9;
     color: white;
@@ -170,7 +171,7 @@ a {
     border-radius: 30px;
 }
 
-.above-fold .navigation-header .container .header .header-buttons .see-how-it-works{
+.above-fold .navigation-header .header-buttons .see-how-it-works{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -178,12 +179,12 @@ a {
     font-size: 20px;
 }
 
-.above-fold .navigation-header .container .header .header-buttons .see-how-it-works i{
+.above-fold .navigation-header .header-buttons .see-how-it-works i{
     color:#22D497 ;
     font-size: 50px;
 }
 
-.above-fold .navigation-header .container .header .check-section{
+.above-fold .navigation-header .check-section{
     margin-top: 30px;
     display: flex;
     gap: 25px;
@@ -192,7 +193,7 @@ a {
 ;
 }
 
-.above-fold .navigation-header .container .header .check-section i{
+.above-fold .navigation-header .check-section i{
     margin-right: 10px;
     color: #3734A9;
 }
@@ -216,6 +217,19 @@ a {
 
 .above-fold .companies .companies-logos img{
     height: 20px;
+}
+
+.above-fold .doted-stroke{
+    position: absolute;
+    bottom: 10px;  
+    left: 0px;
+    height: 119px; 
+}
+.above-fold .crossed-stroke{
+    position: absolute;
+    top: 150px;  
+    right: 0px; 
+    height: 113px; 
 }
 
 /* 2ND SERVICES AND TESTIMONIAL SECTION */
@@ -313,6 +327,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between  ;
+    position: relative;
 }
 
 .why-choose-us .transections{
@@ -440,6 +455,14 @@ a {
     font-size: 19px;
 }
 
+.why-choose-us .circle-stroke{
+    position: absolute;
+    height:95px ;
+    top: 0px;
+    left: 600px;
+    z-index: 100;
+}
+
 /* 4TH SECTION WHY CHOOSE US NEW SECTION */
 
 .why-choose-us-section .container{
@@ -543,6 +566,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    position: relative;
 }
 
 .features-section .header {
@@ -606,11 +630,20 @@ a {
     padding: 45px 30px;
 }
 
+.features-section .vertical-stroke{
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    bottom: 60px;
+}
+
+
 /* testimonials section */
 .testimonials-section .container{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    position: relative;
 }
 
 .testimonials-section .testimonial-heading{
@@ -672,6 +705,14 @@ a {
 .testimonials-section .horizental-slider::-webkit-scrollbar {
     display: none;
 }
+
+.testimonials-section .hill-stroke{
+    position: absolute;
+    height: 130px;
+    top: 50px;
+    right: 300px;
+}
+
 /* Status section */
 
 .status-section{
@@ -683,6 +724,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .status-section .left-text{
@@ -708,6 +750,12 @@ a {
     color: #B1CA16;
     padding-right: 15px;
     font-size: 25px;
+}
+
+.status-section .curve-stroke{
+    position: absolute;
+    height: 160px;
+    right: 0px;
 }
 
 /* BLOG SECTION */
@@ -779,6 +827,9 @@ a {
     padding: 40px;
 }
 /* FAQ SECTION */
+.faq-section{
+    position: relative;
+}
 .faq-section .container{
     display: flex;
     flex-direction: column;
@@ -871,6 +922,18 @@ a {
     line-height: 31px;
 }
 
+.faq-section .stain-stroke{
+    position: absolute;
+    height: 150px;
+    right: 0px;
+    top: 0px;
+}
+.faq-section .ninja-stroke{
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
 
 
 /* GET STARTED SECTION */
