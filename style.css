@@ -529,9 +529,6 @@ a {
 }
 
 
-
-
-
 /* FEATURE SECTION */
 .features-section{
     background-color: #C9E7F2;
@@ -769,4 +766,105 @@ a {
     bottom: 40px;
     right: 80px;
     height: 90px;
+}
+
+
+/* FOOTER SECATION */
+.footer-serction .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-serction .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.footer-serction .company-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-serction .footer h2{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.footer-serction .footer p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757095;
+}
+
+.footer-serction .footer .social{
+    color: #3734A9;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.footer-serction .links,
+.footer-serction .resources{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-serction .links h3,
+.footer-serction .resources h3,
+.footer-serction .newsletter h3{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #181433;
+}
+
+.footer-serction .links span,
+.footer-serction .resources span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #757095;
+}
+
+.footer-serction .newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-serction .newsletter input{
+    height: 52px;
+    width: 250px;
+    background: #EEEEFF;
+    padding-left: 20px;
+    color: #181433;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.footer-serction .newsletter button{
+    background: #3734A9;
+    color: white;
+    padding: 13px 50px;
+    height: 52px;
+
+}
+
+.footer-serction .copy-right{
+    border-top: #E5E5EA 2px solid;
+    padding-top: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-weight: 16px;
+    line-height: 26px;
+    color: #181433;
 }
