@@ -12,6 +12,7 @@
 
 body{
     font-family: "Manrope";
+    background-color: #fafbff;
 }
 
 *{
@@ -49,6 +50,10 @@ a {
 
 .section-left-right-padding {
     padding: 2% 8%;
+}
+
+.section-margin-top{
+    margin-top: 30px;
 }
 
 
@@ -601,6 +606,72 @@ a {
     padding: 45px 30px;
 }
 
+/* testimonials section */
+.testimonials-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonials-section .testimonial-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}   
+.testimonials-section .testimonial-heading h1{
+    font-size: 71px;
+    font-weight: 800;
+    line-height: 66px;
+}
+
+.testimonials-section .testimonial-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.testimonials-section .card{
+    height: 400px;
+    min-width: 680px;
+    display: flex;
+    padding: 60px 30px;
+    border-radius: 10px;
+    border: #CFCFCF 1px solid;
+    position: relative;
+}
+
+.testimonials-section .card .testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonials-section .card h1{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.testimonials-section .card p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.testimonials-section .card .quote{
+    position: absolute;
+    height: 50px;
+    top: -25px;
+}
+
+.testimonials-section .horizental-slider{
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    padding-top: 30px;
+}
+.testimonials-section .horizental-slider::-webkit-scrollbar {
+    display: none;
+}
 /* Status section */
 
 .status-section{
