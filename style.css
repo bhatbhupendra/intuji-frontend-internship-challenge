@@ -707,6 +707,99 @@ a {
 .blog-section .more-blog div div{
     padding: 40px;
 }
+/* FAQ SECTION */
+.faq-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.faq-section h1{
+    font-size: 71px;
+    font-weight: 800;
+    line-height: 76px;
+}
+
+.faq-section .faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.faq-section .faq-q-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 65%;
+}
+
+.faq-section .faq-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: #CFCFCF 1px solid;
+    padding: 20px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.faq-section .faq-detail h2{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 22px;
+}
+
+.faq-section .faq-detail p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.faq-section .faq-detail i{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    font-size: 20px;
+}
+
+.faq-section .ask-faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: #CFCFCF 1px solid;
+    width: 35%;
+    border-radius: 10px;
+    padding: 0px 38px;
+    padding-top: 67px;
+    padding-bottom: 15px;
+}
+
+.faq-section .ask-faq .ask-faq-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.faq-section .ask-faq .ask-faq-header i{
+    font-size: 67px;
+}
+
+
+.faq-section .ask-faq button{
+    width: 100%;
+    background: #FF7F5C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
 
 
 /* GET STARTED SECTION */
